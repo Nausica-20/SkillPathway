@@ -1,1 +1,17 @@
+title: "SkillPathway"
+description: "Your pathway to better skills and a better career."
+theme: minimal-mistakes-jekyll
+url: "https://skillpathway.github.io"
+baseurl: ""
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+markdown: kramdown
+
+author:
+  name: "Nausica"
+  bio: "Helping people grow their skills and career through practical advice and free online learning."
+  location: "Italy"
 

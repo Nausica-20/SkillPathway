@@ -1,10 +1,13 @@
 title: "SkillPathway"
 description: "Your pathway to better skills and a better career."
-theme: minimal-mistakes-jekyll
+
 url: "https://skillpathway.github.io"
 baseurl: ""
 
+remote_theme: "mmistakes/minimal-mistakes@4.24.0"
+
 plugins:
+  - jekyll-include-cache
   - jekyll-feed
   - jekyll-seo-tag
 
@@ -15,3 +18,13 @@ author:
   bio: "Helping people grow their skills and career through practical advice and free online learning."
   location: "Italy"
 
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: false
+      share: true

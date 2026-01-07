@@ -1,0 +1,13 @@
+---
+---
+
+@import "minimal-mistakes"; /* importa il CSS del tema (se necessario) */
+
+/* Regole personalizzate */
+.initial-content,
+.masthead {
+  background-image: url("/assets/images/header.png") !important;
+  background-size: cover !important;
+  background-position: center center !important;
+  opacity: 1 !important;
+}

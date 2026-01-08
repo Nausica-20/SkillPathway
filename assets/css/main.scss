@@ -27,3 +27,20 @@
   --sp-light: #F7F9FC;        /* grigio chiarissimo */
   --sp-dark: #0F1A26;         /* quasi nero */
 }
+/* Pulsanti SkillPathway */
+.btn-sp {
+  display: inline-block;
+  padding: 12px 22px;
+  border-radius: 8px;
+  background: var(--sp-secondary);
+  color: white !important;
+  font-weight: 600;
+  text-decoration: none;
+  transition: 0.25s ease;
+}
+
+.btn-sp:hover {
+  background: var(--sp-primary);
+  color: var(--sp-accent) !important;
+  transform: translateY(-2px);
+}

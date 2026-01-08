@@ -44,3 +44,20 @@
   color: var(--sp-accent) !important;
   transform: translateY(-2px);
 }
+/* Sezioni colorate */
+.section-sp {
+  padding: 40px 20px;
+  border-radius: 12px;
+  margin-bottom: 30px;
+  background: var(--sp-light);
+  border-left: 6px solid var(--sp-secondary);
+}
+
+.section-sp-dark {
+  padding: 40px 20px;
+  border-radius: 12px;
+  margin-bottom: 30px;
+  background: var(--sp-primary);
+  color: white;
+  border-left: 6px solid var(--sp-accent);
+}

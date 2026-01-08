@@ -1,4 +1,4 @@
-title: "SkillPathway"
+mititle: "SkillPathway"
 description: "Your pathway to better skills and a better career."
 logo: "/SkillPathway/assets/images/logo.png"
 
@@ -28,3 +28,13 @@ defaults:
       type: posts
     values:
       layout: single
+      # Menu di navigazione
+nav:
+  - title: "Home"
+    url: "/SkillPathway/"
+  - title: "About"
+    url: "/SkillPathway/about/"
+  - title: "Blog"
+    url: "/SkillPathway/blog/"
+  - title: "Resources"
+    url: "/SkillPathway/resources/"

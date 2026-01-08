@@ -1,1 +1,21 @@
+/* Personalizzazione del logo */
+.site-logo img {
+  width: 80px;            /* dimensione del logo */
+  height: auto;
+  border-radius: 50%;     /* rende il logo rotondo */
+  border: 2px solid #1A2A40; /* bordo sottile */
+  margin-right: 10px;     /* spazio tra logo e titolo */
+}
 
+/* Centrare logo e titolo */
+.site-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+/* Per centrare tutto il blocco header */
+.header-wrapper {
+  text-align: center;
+}

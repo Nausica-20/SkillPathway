@@ -1,11 +1,17 @@
 title: "SkillPathway"
 description: "Your pathway to better skills and a better career."
-logo: "/SkillPathway/assets/images/logo.png"
-url: "https://skillpathway.github.io"
-baseurl: ""
 
+# IMPORTANTE: percorso corretto per logo
+logo: "/SkillPathway/assets/images/logo.png"
+
+# Tema
 remote_theme: "mmistakes/minimal-mistakes@4.24.0"
 
+# URL del sito
+url: "https://nausica-20.github.io"
+baseurl: "/SkillPathway"
+
+# Plugin richiesti
 plugins:
   - jekyll-include-cache
   - jekyll-feed
@@ -13,3 +19,14 @@ plugins:
 
 markdown: kramdown
 
+# Navigazione (se vuoi mantenerla)
+collections:
+  posts:
+    output: true
+
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single

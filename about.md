@@ -1,8 +1,9 @@
-
 ---
 layout: single
-title: "About SkillPathway"
+title: "About"
 permalink: /about/
 ---
 
-SkillPathway was created to help learners and professionals develop essential skills, grow their careers, and discover high-quality free courses.
+## About SkillPathway
+
+SkillPathway is your guide to building practical skills for a stronger career.
